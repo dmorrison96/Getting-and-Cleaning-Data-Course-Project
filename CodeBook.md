@@ -13,7 +13,7 @@ This code book summarizes the resulting data fields in tidy_data.txt.
 * Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-# Descriptions
+# Descriptors
 
 ## Identifiers
 The first two columns are identifiers.
