@@ -1,6 +1,6 @@
 # Code Book
 
-This code book summarizes the resulting data fields in data_tidy.txt.
+This code book summarizes the resulting data fields in tidy_data.txt.
 
 # Modifications
 
@@ -32,82 +32,52 @@ The first two columns are identifiers.
 ## Measurements
 The remaining variables are the calculated means and standard deviations of these sets of data:
 
-* tBodyAccMeanX
-* tBodyAccMeanY
-* tBodyAccMeanZ
-* tBodyAccStdX
-* tBodyAccStdY
-* tBodyAccStdZ
-* tGravityAccMeanX
-* tGravityAccMeanY
-* tGravityAccMeanZ
-* tGravityAccStdX
-* tGravityAccStdY
-* tGravityAccStdZ
-* tBodyAccJerkMeanX
-* tBodyAccJerkMeanY
-* tBodyAccJerkMeanZ
-* tBodyAccJerkStdX
-* tBodyAccJerkStdY
-* tBodyAccJerkStdZ
-* tBodyGyroMeanX
-* tBodyGyroMeanY
-* tBodyGyroMeanZ
-* tBodyGyroStdX
-* tBodyGyroStdY
-* tBodyGyroStdZ
-* tBodyGyroJerkMeanX
-* tBodyGyroJerkMeanY
-* tBodyGyroJerkMeanZ
-* tBodyGyroJerkStdX
-* tBodyGyroJerkStdY
-* tBodyGyroJerkStdZ
-* tBodyAccMagMean
-* tBodyAccMagStd
-* tGravityAccMagMean
-* tGravityAccMagStd
-* tBodyAccJerkMagMean
-* tBodyAccJerkMagStd
-* tBodyGyroMagMean
-* tBodyGyroMagStd
-* tBodyGyroJerkMagMean
-* tBodyGyroJerkMagStd
-* fBodyAccMeanX
-* fBodyAccMeanY
-* fBodyAccMeanZ
-* fBodyAccStdX
-* fBodyAccStdY
-* fBodyAccStdZ
-* fBodyAccMeanFreqX
-* fBodyAccMeanFreqY
-* fBodyAccMeanFreqZ
-* fBodyAccJerkMeanX
-* fBodyAccJerkMeanY
-* fBodyAccJerkMeanZ
-* fBodyAccJerkStdX
-* fBodyAccJerkStdY
-* fBodyAccJerkStdZ
-* fBodyAccJerkMeanFreqX
-* fBodyAccJerkMeanFreqY
-* fBodyAccJerkMeanFreqZ
-* fBodyGyroMeanX
-* fBodyGyroMeanY
-* fBodyGyroMeanZ
-* fBodyGyroStdX
-* fBodyGyroStdY
-* fBodyGyroStdZ
-* fBodyGyroMeanFreqX
-* fBodyGyroMeanFreqY
-* fBodyGyroMeanFreqZ
-* fBodyAccMagMean
-* fBodyAccMagStd
-* fBodyAccMagMeanFreq
-* fBodyBodyAccJerkMagMean
-* fBodyBodyAccJerkMagStd
-* fBodyBodyAccJerkMagMeanFreq
-* fBodyBodyGyroMagMean
-* fBodyBodyGyroMagStd
-* fBodyBodyGyroMagMeanFreq
-* fBodyBodyGyroJerkMagMean
-* fBodyBodyGyroJerkMagStd
-* fBodyBodyGyroJerkMagMeanFreq
+"TimeDomain_BodyAccelerometerelerometerelerometer_Mean_X" 
+"TimeDomain_BodyAccelerometerelerometerelerometer_Mean_Y" 
+"TimeDomain_BodyAccelerometerelerometerelerometer_Mean_Z" 
+"TimeDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_X" "TimeDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_Y" "TimeDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_Z" 
+"TimeDomain_GravityAccelerometerelerometerelerometer_Mean_X" 
+"TimeDomain_GravityAccelerometerelerometerelerometer_Mean_Y" 
+"TimeDomain_GravityAccelerometerelerometerelerometer_Mean_Z" 
+"TimeDomain_GravityAccelerometerelerometerelerometer_StandardDeviation_X" "TimeDomain_GravityAccelerometerelerometerelerometer_StandardDeviation_Y" "TimeDomain_GravityAccelerometerelerometerelerometer_StandardDeviation_Z" 
+"TimeDomain_BodyAccelerometerelerometerelerometerJerk_Mean_X" 
+"TimeDomain_BodyAccelerometerelerometerelerometerJerk_Mean_Y" 
+"TimeDomain_BodyAccelerometerelerometerelerometerJerk_Mean_Z" 
+"TimeDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_X" "TimeDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_Y" "TimeDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_Z" 
+"TimeDomain_BodyGyroscopescopescope_Mean_X" 
+"TimeDomain_BodyGyroscopescopescope_Mean_Y" 
+"TimeDomain_BodyGyroscopescopescope_Mean_Z" 
+"TimeDomain_BodyGyroscopescopescope_StandardDeviation_X" 
+"TimeDomain_BodyGyroscopescopescope_StandardDeviation_Y" 
+"TimeDomain_BodyGyroscopescopescope_StandardDeviation_Z" 
+"TimeDomain_BodyGyroscopescopescopeJerk_Mean_X" 
+"TimeDomain_BodyGyroscopescopescopeJerk_Mean_Y" 
+"TimeDomain_BodyGyroscopescopescopeJerk_Mean_Z" 
+"TimeDomain_BodyGyroscopescopescopeJerk_StandardDeviation_X" 
+"TimeDomain_BodyGyroscopescopescopeJerk_StandardDeviation_Y" 
+"TimeDomain_BodyGyroscopescopescopeJerk_StandardDeviation_Z" 
+"TimeDomain_BodyAccelerometerelerometerelerometerMagnitudenitudenitude_mean" "TimeDomain_BodyAccelerometerelerometerelerometerMagnitudenitudenitude_std" "TimeDomain_GravityAccelerometerelerometerelerometerMagnitudenitudenitude_mean" "TimeDomain_GravityAccelerometerelerometerelerometerMagnitudenitudenitude_std" "TimeDomain_BodyAccelerometerelerometerelerometerJerkMagnitudenitudenitude_mean" "TimeDomain_BodyAccelerometerelerometerelerometerJerkMagnitudenitudenitude_std" "TimeDomain_BodyGyroscopescopescopeMagnitudenitudenitude_mean" 
+"TimeDomain_BodyGyroscopescopescopeMagnitudenitudenitude_std" 
+"TimeDomain_BodyGyroscopescopescopeJerkMagnitudenitudenitude_mean" 
+"TimeDomain_BodyGyroscopescopescopeJerkMagnitudenitudenitude_std" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_Mean_X" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_Mean_Y" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_Mean_Z" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_X" "FrequencyDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_Y" "FrequencyDomain_BodyAccelerometerelerometerelerometer_StandardDeviation_Z" "FrequencyDomain_BodyAccelerometerelerometerelerometer_meanFreq_X" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_meanFreq_Y" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometer_meanFreq_Z" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_Mean_X" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_Mean_Y" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_Mean_Z" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_X" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_Y" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_StandardDeviation_Z" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_meanFreq_X" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_meanFreq_Y" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerk_meanFreq_Z" 
+"FrequencyDomain_BodyGyroscopescopescope_Mean_X" 
+"FrequencyDomain_BodyGyroscopescopescope_Mean_Y" 
+"FrequencyDomain_BodyGyroscopescopescope_Mean_Z" 
+"FrequencyDomain_BodyGyroscopescopescope_StandardDeviation_X" 
+"FrequencyDomain_BodyGyroscopescopescope_StandardDeviation_Y" 
+"FrequencyDomain_BodyGyroscopescopescope_StandardDeviation_Z" 
+"FrequencyDomain_BodyGyroscopescopescope_meanFreq_X" 
+"FrequencyDomain_BodyGyroscopescopescope_meanFreq_Y" 
+"FrequencyDomain_BodyGyroscopescopescope_meanFreq_Z" 
+"FrequencyDomain_BodyAccelerometerelerometerelerometerMagnitudenitudenitude_mean" "FrequencyDomain_BodyAccelerometerelerometerelerometerMagnitudenitudenitude_std" "FrequencyDomain_BodyAccelerometerelerometerelerometerMagnitudenitudenitude_meanFreq" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerkMagnitudenitudenitude_mean" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerkMagnitudenitudenitude_std" "FrequencyDomain_BodyAccelerometerelerometerelerometerJerkMagnitudenitudenitude_meanFreq" "FrequencyDomain_BodyGyroscopescopescopeMagnitudenitudenitude_mean" 
+"FrequencyDomain_BodyGyroscopescopescopeMagnitudenitudenitude_std" 
+"FrequencyDomain_BodyGyroscopescopescopeMagnitudenitudenitude_meanFreq" "FrequencyDomain_BodyGyroscopescopescopeJerkMagnitudenitudenitude_mean" "FrequencyDomain_BodyGyroscopescopescopeJerkMagnitudenitudenitude_std" "FrequencyDomain_BodyGyroscopescopescopeJerkMagnitudenitudenitude_meanFreq"
